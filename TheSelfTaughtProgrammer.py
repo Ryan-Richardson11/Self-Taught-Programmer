@@ -83,10 +83,25 @@
 #         new_list.append(i * j)
 # print(new_list)
 
-# Chapter 7 ***********
+# Chapter 8 ***********
 # import statistics
 # my_list = [5, 6, 2, 6, 7, 2, 7, 7, 8, 3, 5, 6]
 # print(statistics.mean(my_list))
 
-def cubed(n):
-    return n**3
+# def cubed(n):
+#     return n**3
+
+# Chapter 9 ***********
+# with open("ImportPractice.py", "r") as my_file:
+#     print(my_file.read())
+
+# ans = input("What is your answer to the question?: ")
+# with open("saved_answers.py", "w") as my_file:
+#     print(my_file.write(ans))
+
+import csv
+shows = [["Top Gun", "Risky Business", "Minority Report"], ["Titanic", "The Revenant", "Inception"], ["Training Day", "Man on Fire", "Flight"]]
+with open("shows.csv", "w") as my_file:
+    w = csv.writer(my_file, delimiter= ",")
+    for i in shows:
+        w.writerow(i)
