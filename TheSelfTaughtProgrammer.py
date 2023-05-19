@@ -56,3 +56,29 @@
 
 # string = "It was a bright cold day in April, and the clocks were striking thirteen."
 # print(string[:33])
+
+# Chapter 7 ***********
+# shows = ["The Walking Dead", "Entourage", "The Sopranos", "The Vampire Diaries"]
+# for i in shows:
+#     print(i)
+
+# for i in range(25, 51):
+#     print(i)
+
+# guess_list = [8, 19 , 148, 4]
+# while True:
+#     ask = int(input("Guess numbers in the list in type q to quit: "))
+#     if ask == "q":
+#         break
+#     elif ask in guess_list:
+#         print("The number is in the list!")
+#     else:
+#         print("The number is not in the list.")
+
+list_one = [8, 19 , 148, 4]
+list_two = [9, 1 , 33, 83]
+new_list = []
+for i in list_one:
+    for j in list_one:
+        new_list.append(i * j)
+print(new_list)
