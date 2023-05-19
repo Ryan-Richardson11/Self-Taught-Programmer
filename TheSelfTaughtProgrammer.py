@@ -197,3 +197,33 @@
 # john = Rider("John Smith", 32, 6.0)
 # blaze = Horse("Blaze", "mustang", john)
 # print(blaze.rider.name)
+
+# Chapter 13 ***********
+# class Square:
+#     square_list = []
+
+#     def __init__(self, s):
+#         self.side = s
+#         self.square_list.append(self.side)
+#     def calculate_perimeter(self):
+#         return 4 * (self.side)
+#     def change_size(self, s):
+#         self.side += s
+#     def __repr__(self):
+#         return f"{self.side} by {self.side} by {self.side} by {self.side}"
+
+# S1 = Square(10)
+# S2 = Square(2)
+# S3 = Square(30)
+# # print(Square.square_list)
+# print(S1)
+# print(S2)
+# print(S3)
+
+# def the_same_object(x, y):
+#     if x is y:
+#         return True
+#     else:
+#         return False
+    
+# print(the_same_object(3, 3))
