@@ -107,3 +107,44 @@
 #         w.writerow(i)
 
 # Chapter 10 ***********
+# ST_Hangman.py
+
+# Chapter 11 ***********
+# class Apple:
+#     def __init__(self, color, ripeness, size, type):
+#         self.color = color
+#         self.ripeness = ripeness
+#         self.size = size
+#         self.type = type
+
+# import math
+# class Circle:
+#     def __init__(self, r):
+#         self.radius = r
+
+#     def area(self):
+#         return (math.pi * self.radius **2)
+    
+# C1 = Circle(4)
+# print(C1.area())
+
+# class Triangle:
+#     def __init__(self, b, h):
+#         self.base = b
+#         self.height = h
+
+#     def area(self):
+#         return (self.base * self.height) / 2
+    
+# T1 = Triangle(4, 6)
+# print(T1.area())
+
+# class Hexagon:
+#     def __init__(self, s, ):
+#         self.side = s
+
+#     def calculate_perimeter(self):
+#         return (6 * self.side)
+    
+# H1 = Hexagon(6)
+# print(H1.calculate_perimeter())
