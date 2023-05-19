@@ -148,3 +148,52 @@
     
 # H1 = Hexagon(6)
 # print(H1.calculate_perimeter())
+
+# Chapter 12 ***********
+
+# class Shape:
+#     def __init__(self):
+#         pass
+#     def what_am_i(self):
+#         print("I am a shape")
+
+# class Rectangle(Shape):
+#     def __init__(self, l, w):
+#         self.length = l
+#         self.width = w
+#     def calculate_perimeter(self):
+#         return 2 * (self.length + self.width)
+#     def change_size(self, l, w):
+#         self.length = self.length + l
+#         self.width = self.width + w
+    
+# class Square(Shape):
+#     def __init__(self, s):
+#         self.side = s
+#     def calculate_perimeter(self):
+#         return 4 * (self.side)
+#     def change_size(self, s):
+#         self.side += s
+    
+# R1 = Rectangle(4, 5)
+# print(R1.calculate_perimeter())
+# R1.what_am_i()
+# S1 = Square(5)
+# print(S1.calculate_perimeter())
+# S1.what_am_i()
+
+# class Horse:
+#     def __init__(self, name, breed, rider):
+#         self.name = name
+#         self.breed = breed
+#         self.rider = rider
+
+# class Rider:
+#     def __init__(self, name, age, height):
+#         self.name = name
+#         self.age = age
+#         self.height = height
+
+# john = Rider("John Smith", 32, 6.0)
+# blaze = Horse("Blaze", "mustang", john)
+# print(blaze.rider.name)
