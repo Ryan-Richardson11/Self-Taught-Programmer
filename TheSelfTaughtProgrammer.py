@@ -75,10 +75,18 @@
 #     else:
 #         print("The number is not in the list.")
 
-list_one = [8, 19 , 148, 4]
-list_two = [9, 1 , 33, 83]
-new_list = []
-for i in list_one:
-    for j in list_one:
-        new_list.append(i * j)
-print(new_list)
+# list_one = [8, 19 , 148, 4]
+# list_two = [9, 1 , 33, 83]
+# new_list = []
+# for i in list_one:
+#     for j in list_one:
+#         new_list.append(i * j)
+# print(new_list)
+
+# Chapter 7 ***********
+# import statistics
+# my_list = [5, 6, 2, 6, 7, 2, 7, 7, 8, 3, 5, 6]
+# print(statistics.mean(my_list))
+
+def cubed(n):
+    return n**3
