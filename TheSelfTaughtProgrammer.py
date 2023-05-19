@@ -99,9 +99,11 @@
 # with open("saved_answers.py", "w") as my_file:
 #     print(my_file.write(ans))
 
-import csv
-shows = [["Top Gun", "Risky Business", "Minority Report"], ["Titanic", "The Revenant", "Inception"], ["Training Day", "Man on Fire", "Flight"]]
-with open("shows.csv", "w") as my_file:
-    w = csv.writer(my_file, delimiter= ",")
-    for i in shows:
-        w.writerow(i)
+# import csv
+# shows = [["Top Gun", "Risky Business", "Minority Report"], ["Titanic", "The Revenant", "Inception"], ["Training Day", "Man on Fire", "Flight"]]
+# with open("shows.csv", "w") as my_file:
+#     w = csv.writer(my_file, delimiter= ",")
+#     for i in shows:
+#         w.writerow(i)
+
+# Chapter 10 ***********
