@@ -227,3 +227,32 @@
 #         return False
     
 # print(the_same_object(3, 3))
+
+# Chapter 21 ***********
+# class Stack:
+#     def __init__(self):
+#         self.items = []
+
+#     def pop(self):
+#         return self.items.pop()
+
+#     def push(self, item):
+#         return self.items.append(item)
+
+# stack = Stack()
+# for i in "Yesterday":
+#     stack.push(i)
+# reversed = ""
+# for j in range(len(stack.items)):
+#     reversed += stack.pop()
+# print(reversed)
+
+# num_list = [1, 2, 3, 4, 5]
+# new_list = []
+# for i in num_list:
+#     stack.push(i)
+# print(stack.items)
+# while stack.items:
+#     new_list.append(stack.pop())
+# print(new_list)
+
